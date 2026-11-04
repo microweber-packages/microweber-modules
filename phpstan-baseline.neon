@@ -1,1 +1,211 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Call to static method find\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ChartWidget.php
+
+		-
+			message: '#^Coolsam\\Modules\\ChartWidget\:\:canAccess\(\) calls parent\:\:canAccess\(\) but Coolsam\\Modules\\ChartWidget does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/ChartWidget.php
+
+		-
+			message: '#^Call to method appPath\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 6
+			path: src/Commands/ModuleFilamentInstallCommand.php
+
+		-
+			message: '#^Call to method getStudlyName\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 4
+			path: src/Commands/ModuleFilamentInstallCommand.php
+
+		-
+			message: '#^Call to static method findOrFail\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Commands/ModuleFilamentInstallCommand.php
+
+		-
+			message: '#^Caught class Nwidart\\Modules\\Exceptions\\ModuleNotFoundException not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Commands/ModuleFilamentInstallCommand.php
+
+		-
+			message: '#^Method Coolsam\\Modules\\Commands\\ModuleFilamentInstallCommand\:\:getModule\(\) has invalid return type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Commands/ModuleFilamentInstallCommand.php
+
+		-
+			message: '#^Call to static method findOrFail\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Modules.php
+
+		-
+			message: '#^Method Coolsam\\Modules\\Modules\:\:getModule\(\) has invalid return type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Modules.php
+
+		-
+			message: '#^Call to an undefined static method Coolsam\\Modules\\Facades\\FilamentModules\:\:convertPathToNamespace\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Call to method plugin\(\) on an unknown class Filament\\Panel\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Call to method topNavigation\(\) on an unknown class Filament\\Panel\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Function filament not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Parameter \$panel of method Coolsam\\Modules\\ModulesPlugin\:\:boot\(\) has invalid type Filament\\Panel\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Parameter \$panel of method Coolsam\\Modules\\ModulesPlugin\:\:register\(\) has invalid type Filament\\Panel\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesPlugin.php
+
+		-
+			message: '#^Call to an undefined method Coolsam\\Modules\\ModulesServiceProvider\:\:databasePath\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined method Coolsam\\Modules\\ModulesServiceProvider\:\:getExtraPath\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined method Coolsam\\Modules\\ModulesServiceProvider\:\:getStudlyName\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined method Coolsam\\Modules\\ModulesServiceProvider\:\:namespace\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined static method Coolsam\\Modules\\Facades\\FilamentModules\:\:convertPathToNamespace\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method macro\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 9
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method mixin\(\) on an unknown class Livewire\\Features\\SupportTesting\\Testable\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method register\(\) on an unknown class Filament\\Support\\Facades\\FilamentAsset\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method register\(\) on an unknown class Filament\\Support\\Facades\\FilamentIcon\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method registerScriptData\(\) on an unknown class Filament\\Support\\Facades\\FilamentAsset\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Method Coolsam\\Modules\\ModulesServiceProvider\:\:getAssets\(\) has invalid return type Filament\\Support\\Assets\\Asset\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/ModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method find\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Page.php
+
+		-
+			message: '#^Coolsam\\Modules\\Page\:\:canAccess\(\) calls parent\:\:canAccess\(\) but Coolsam\\Modules\\Page does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/Page.php
+
+		-
+			message: '#^Call to static method find\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Resource.php
+
+		-
+			message: '#^Coolsam\\Modules\\Resource\:\:canAccess\(\) calls parent\:\:canAccess\(\) but Coolsam\\Modules\\Resource does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/Resource.php
+
+		-
+			message: '#^Call to static method find\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/StatsOverviewWidget.php
+
+		-
+			message: '#^Coolsam\\Modules\\StatsOverviewWidget\:\:canAccess\(\) calls parent\:\:canAccess\(\) but Coolsam\\Modules\\StatsOverviewWidget does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/StatsOverviewWidget.php
+
+		-
+			message: '#^Call to static method find\(\) on an unknown class Nwidart\\Modules\\Facades\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/TableWidget.php
+
+		-
+			message: '#^Coolsam\\Modules\\TableWidget\:\:canAccess\(\) calls parent\:\:canAccess\(\) but Coolsam\\Modules\\TableWidget does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/TableWidget.php
+
+		-
+			message: '#^PHPDoc tag @mixin contains unknown class Livewire\\Features\\SupportTesting\\Testable\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Testing/TestsModules.php
